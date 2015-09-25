@@ -1,5 +1,8 @@
-extends layout
-
-block content
-  h1= title
-  p Welcome to #{title}
+doctype html
+html
+   head
+     title = "The Great Button of Joy"
+     link(rel='styleSheet', href='/stylesheets/index.css')
+   body
+     form(action='/views/verify.jade')
+       input(type='submit()' value='The Great Button of Joy')

@@ -1,0 +1,5 @@
+body{
+	color: orange;
+	background-image:url(/public/images/joy.jpg);
+	background-size:contain;
+}
