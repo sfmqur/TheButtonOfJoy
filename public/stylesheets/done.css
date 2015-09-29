@@ -1,6 +1,32 @@
 body{
 	color: orange;
-	/*TODO: use outfit .jpg instead of joy.jpg */
-	background-image:url(/images/joy.jpg);
+	background-color: orange;
 	background-size:cover;
+}
+#txt{
+	color: red;
+}
+
+#me{
+	width: 400px;
+	height: 300px;
+}
+
+/* image rotate */
+.rotate90 {
+	bottom: auto;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.rotate270 {
+	bottom: auto;
+	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	transform: rotate(270deg);
 }
