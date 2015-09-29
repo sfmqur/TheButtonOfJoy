@@ -1,6 +1,6 @@
 body{
 	color: orange;
 	/*TODO: use outfit .jpg instead of joy.jpg */
-	background-image:url(/public/images/joy.jpg);
-	background-size:contain;
+	background-image:url(/images/joy.jpg);
+	background-size:cover;
 }
